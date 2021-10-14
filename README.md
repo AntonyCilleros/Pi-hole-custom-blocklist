@@ -1,35 +1,20 @@
 # Pi-hole-custom-blocklist
+Le but de ce projet est de bloquer tous les nom de domaines inutiles lorsque l'on navigue sur le web et qui n'existe que pour nous gacher la vie en hébérgeant des blocklist à importer sur vos fichier host ou sur votre dns.
 
-- [x] Task 1
-- [ ] Task 2
-- [ ] Task 3
+blocklist prêt à être utilisé :
+- [x] Adware-Malware
+- [ ] Tracking & Telemetry
+- [ ] Suspicious
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+## Adware-Malware
+Bloque les Adwares et Malwares
 
-Alt-H1
-======
+## Tracking & Telemetry
+Bloque les tracking inutiles et les telemetry (windows, etc...)
 
-Alt-H2
-------
+## Suspicious
+Bloque les sites reconnus comme dangereux ou qui possède des virus
 
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.  
-
-[I'm an inline-style link](https://www.google.com)
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+## Contribuer
+Vous pouvez contribuer au projet en ajoutant des noms de domaines à bloquer dans les blocklists correspondantes en ajoutant à la ligne "0.0.0.0 nomdudomaine" en format regex.
+Les sous-domaines peuvent être bloqué individuellement.
